@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
-//import { Button } from './Button';
+import { Button } from './Button';
 import './Navbar.css';
 
 function Navbar(){
@@ -14,7 +14,7 @@ function Navbar(){
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
+                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                         King Simmons
                         <div className="tab"></div>
                         <div><i class="fa-solid fa-crown"></i></div>

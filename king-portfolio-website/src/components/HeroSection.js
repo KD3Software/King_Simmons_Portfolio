@@ -6,10 +6,10 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <video src ="/videos/video-2.mp4" autoPlay loop muted />
-            <hi>Welcome</hi>
+            <video src ="/videos/video1.mp4" autoPlay loop muted />
+            <h1>Welcome</h1>
             <p>to my playground</p>
-            <div>
+            <div className = 'hero-btns'>
                 <Button 
                 className='btns' 
                 buttonStyle='btn--outline'
@@ -28,3 +28,5 @@ function HeroSection() {
         </div>
     )
 }
+
+export default HeroSection;
