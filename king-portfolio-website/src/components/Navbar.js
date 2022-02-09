@@ -15,7 +15,7 @@ function Navbar(){
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                        King Simmons
+                        King D. Simmons III
                         <div className="tab"></div>
                         <div><i class="fa-solid fa-crown"></i></div>
                     </Link>
@@ -26,6 +26,11 @@ function Navbar(){
                         <li className = 'nav-item'>
                             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                                 Home
+                            </Link> 
+                        </li>
+                        <li className = 'nav-item'>
+                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                                Resume
                             </Link> 
                         </li>
                         <li className = 'nav-item'>
