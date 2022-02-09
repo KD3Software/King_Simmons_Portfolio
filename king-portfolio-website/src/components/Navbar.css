@@ -19,7 +19,7 @@
   }
   
   .navbar-logo {
-    color: #fff;
+    color:aliceblue;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -28,6 +28,7 @@
     display: flex;
     align-items: center;
   }
+
   
   .fa-typo3 {
     margin-left: 0.5rem;
@@ -75,7 +76,7 @@
     display: none;
   }
   
-  @media screen and (max-width: 960px) {
+  @media screen {
     .NavbarItems {
       position: relative;
     }
@@ -155,4 +156,8 @@
       color: #242424;
       transition: 250ms;
     }
+
+    .tab {
+        margin-left: .5em
+       }
   }
